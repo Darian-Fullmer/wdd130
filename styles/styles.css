@@ -1,0 +1,32 @@
+img {
+    width: 10%;
+}
+body {
+    background-color: Lightblue;
+    text-align: center;
+    margin: 0;
+}
+header, footer {
+    background-color: white;
+    padding: 20px;
+}
+nav a {
+    color: blue;
+    text-decoration: underlines;
+}
+nav a:hover {
+    color: purple;
+}
+p{
+    font-size: 16px;
+    
+}
+#bio {
+    font-size: 20px;
+    color: black;
+}
+
+.emphasis {
+    font-style: italic;
+    color: forestgreen;
+}
