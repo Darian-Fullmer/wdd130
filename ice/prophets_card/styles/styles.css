@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: #ffecd7;
+    font-family: "helvetica", sans-serif;
+}
+.card {
+    margin: auto;
+    background-color: #008db1;
+    border-color: #004e63;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+    height: 65%;
+    width: 400px;
+    padding: 10px;
+}
+.title {
+    color: #fffffe;
+    text-decoration: none;
+    font-family: "helvetica", sans-serif;
+    
+}
+a {
+    color: #91e4fb;
+    font-family: "helvetica", sans-serif;
+    font-size: .8em;
+}
+img {
+    width: 300px;
+    height: 350px;
+    border: 10px solid #fffffe;
+}
+
+.quote {
+    color: #ffd783;
+    font-size: 1.2em;
+    font-family: "Brush Script MT" ;
+    
+}
+ul {
+  margin: auto;
+  color: #fffffe;
+  font-family: "helvetica", sans-serif;
+  font-size: 1.2em;
+}
