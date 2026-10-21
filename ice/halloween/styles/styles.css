@@ -1,6 +1,5 @@
 /* Add your CSS here to style your halloween page */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;700&display=swap');
-
 body {
     margin: 0;
     padding: 0  ;
@@ -9,7 +8,6 @@ body {
     display: grid;
    
 }
-
 #wrapper {
     width: 80%;
     max-width: 1400px;
@@ -20,7 +18,6 @@ body {
     padding: 5px ;
     margin: padding;
 }
-
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -30,24 +27,19 @@ nav ul {
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 5px ;
-    
 }
 h1 {
    font-size: 50px;
     justify-self: center
-
-
 }
 img {
     width: 40%;
     height: auto;
     justify-items: center;
 }
-
 footer {
     justify-self: flex-end;
     align-self: baseline;
     color: rgb(22, 22, 22);
     font-family: 'Franklin Gothic Medium', 'Arial bold', Arial, sans-serif;
-    
 }
