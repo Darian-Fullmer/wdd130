@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portal Page</title>
-        <link href="styles/styles.css" rel="stylesheet">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darian's WDD130 Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="content">
         <header>
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Darian's portfolio logo">
+            </a>
+
             <nav>
-                <a href="wwr/index.html" >White Water Rafting Site</a>
-           
+                <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="aboutme.html">About Me</a></li>
+                 <li class="dropdown">
+                    <a href="#projects">Projects </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="wwr/index.html">White Water Rafting</a></li>
+                        <li><a href="ice/favorite_devo/favdevo.html"> Favorite Devotional </a></li>
+                        <li><a href="ice/prophets_card/oaks.html"> Prophets Card</a></li>
+                        <li><a href="ice/halloween/index.html"> Halloween </a></li>
+                    </ul>
+                </li>
+                </ul>
             </nav>
         </header>
+
         <main>
-            <h1>Darian Fullmer</h1>
-            <!-- <Img src="images/byui_logo.png" alt="Byu-I Logo">
-                <p id="bio" class="emphasis"> I really enjoy learning about web development! I  love being able to create programs using python.</p>
-                <p class="emphasis"> I am currently working on a project that will allow me to create a website for my business. I am excited to learn more about web development and to continue to improve my skills.</p> -->
+            <section class="hero">
+                <h1>Darian's WDD130 Portfolio</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+    This portfolio contains my WDD130 projects and practice work.</p>
+            </section>
 
+            <section id="projects">
+                <h2>My Projects</h2>
+
+                <div class="project-grid">
+                  <div class="project-card wwr-card">
+                       <h3>White Water Rafting</h3>
+
+                       <a href="wwr/index.html">
+                       <img class="wwr-logo"     src="wwr/images/splashzonerafting-logo.png"  alt="Visit the Splash Zone White Water Rafting website">
+                     </a>
+                    </div>
+
+                    <article class="project-card ice-card">
+                        <h3>Ice Challenges</h3>
+
+                        <div class="ice-links">
+                            <a href="ice/prophets_card/oaks.html"> Prophet Card </a>
+                            <a href="ice/favorite_devo/favdevo.html"> Favorite Devotional</a>
+                            <a href="ice/halloween/index.html"> Halloween </a>
+                        </div>
+                    </article>
+
+                    <a class="project-card project-link" href="#">
+                        Future Project
+                    </a>
+
+                    <a class="project-card project-link" href="aboutme.html">
+                        About Me
+                    </a>
+                </div>
+            </section>
         </main>
-        <!-- <footer>
-            <p>&copy; 2023 Darian Fullmer. All rights reserved.
 
-            </p>
-
+        <footer>
+            <p>&copy; 2026 Darian Fullmer</p>
         </footer>
-     -->
-    </body>
+    </div>
+</body>
 </html>
