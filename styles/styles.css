@@ -169,6 +169,74 @@ h2 {
 }
 
 /* Ice Challenges Project */
+/* Ice Challenges Page */
+
+.ice-page {
+    padding: 45px 40px 60px;
+}
+
+.ice-intro {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.ice-intro h1 {
+    color: #091120;
+}
+
+.ice-intro p {
+    line-height: 1.6;
+}
+
+.challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.challenge-card {
+    background-color: #FFFFFF;
+    border-left: 8px solid #006663;
+    box-shadow: 0 4px 12px rgba(9, 17, 32, 0.18);
+    padding: 25px;
+}
+
+.challenge-card h2 {
+    color: #144F67;
+    text-align: left;
+    margin: 0 0 12px;
+}
+
+.challenge-card p {
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.challenge-button {
+    display: inline-block;
+    background-color: #006663;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.challenge-button:hover {
+    background-color: #00290A;
+}
+
+@media screen and (max-width: 700px) {
+    .ice-page {
+        padding: 30px 20px;
+    }
+
+    .challenge-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ICE Challenges on the Home Page */
 
 .ice-card h3 {
     margin-top: 0;
